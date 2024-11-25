@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #444;
+    padding: 10px;
+}
+
+.option {
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.option:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos para los módulos */
+.module-container {
+    display: none; /* Ocultar todos los módulos por defecto */
+}
+
+.module-container.active {
+    display: block; /* Mostrar solo el módulo activo */
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.ventas-table th, .ventas-table td {
+    text-align: left;
+}
+
+.ventas-table th {
+    background-color: #f2f2f2;
+}
